@@ -36,12 +36,12 @@ os.makedirs(STATIC_ROOT, exist_ok=True)
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DB_Secret_key')
+SECRET_KEY = 'django-insecure-7j=@ua%qvih_!18nd^www3%8*xc6@@#ntvx_=(+fm(9!+n7(*+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smart-asistencia.herokuapp.com']
+ALLOWED_HOSTS = ['https://smart-asistencia.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
