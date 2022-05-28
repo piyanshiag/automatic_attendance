@@ -41,7 +41,7 @@ SECRET_KEY = 'django-insecure-7j=@ua%qvih_!18nd^www3%8*xc6@@#ntvx_=(+fm(9!+n7(*+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://smart-asistencia.herokuapp.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['smart-asistencia.herokuapp.com','localhost','127.0.0.1']
 
 
 # Application definition
